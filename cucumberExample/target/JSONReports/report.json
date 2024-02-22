@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-21T17:10:09.440Z",
+        "line": 3,
+        "name": "Validar que a busca do google está funcionando",
+        "description": "",
+        "id": "feature-para-testar-funcionalidadede-busca-do-google;validar-que-a-busca-do-google-está-funcionando",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48185151949,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "O browser está aberto",
+            "match": {
+              "location": "org.merini.steps.GoogleSearchSteps.o_browser_está_aberto()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3101722973,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "O usuário está na página de busca do google",
+            "match": {
+              "location": "org.merini.steps.GoogleSearchSteps.o_usuário_está_na_página_de_busca_do_google()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 414127927,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "O usuário digitar um texto na caixa de texto",
+            "match": {
+              "location": "org.merini.steps.GoogleSearchSteps.o_usuário_digitar_um_texto_na_caixa_de_texto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2347844628,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicar em buscar",
+            "match": {
+              "location": "org.merini.steps.GoogleSearchSteps.clicar_em_buscar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5207821251,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "O usuário é direcionado para a página de resultado da busca",
+            "match": {
+              "location": "org.merini.steps.GoogleSearchSteps.o_usuário_é_direcionado_para_a_página_de_resultado_da_busca()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature para testar funcionalidadede busca do google",
+    "description": "",
+    "id": "feature-para-testar-funcionalidadede-busca-do-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/test/resources/features/GoogleSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-21T17:11:09.048Z",
+        "line": 4,
+        "name": "Verificar se login esta ok com credenciais corretas",
+        "description": "",
+        "id": "feature-para-testar-a-funcionalidade-de-login;verificar-se-login-esta-ok-com-credenciais-corretas",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 478629,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "esta na pagina de login",
+            "match": {
+              "location": "org.merini.steps.LoginSteps.esta_na_pagina_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 213026,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "usuario digita nome e senha",
+            "match": {
+              "location": "org.merini.steps.LoginSteps.usuario_digita_nome_e_senha()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197010,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicar no botão login",
+            "match": {
+              "location": "org.merini.steps.LoginSteps.clicar_no_botão_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225915,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "usuario e direcionado para home page",
+            "match": {
+              "location": "org.merini.steps.LoginSteps.usuario_e_direcionado_para_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature para testar a funcionalidade de login",
+    "description": "",
+    "id": "feature-para-testar-a-funcionalidade-de-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/test/resources/features/login.feature",
+    "tags": []
+  }
+]
